@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('wbbackgrd.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.name-container {
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 75px;
+}
+.name {
+    font-size: 40px;
+    color: rgb(47, 96, 87);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name2 {
+    font-size: 40px;
+    color: rgb(47, 96, 87);
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.button {
+    background-color: rgb(47, 96, 87);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Added for visual consistency */
+}
+.info{
+    text-align: right;
+    position: absolute;
+    right: 150px;
+    top: 50px;
+}
+.contact {
+    background-color: rgb(47, 96, 87);
+    text-align: left;
+    color: white;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 1100px;
+}
